@@ -9,6 +9,11 @@ body{
   height: 100vh;
   position: relative;
 }
+.carousel>ul{
+  margin: 0;
+  padding: 0;
+  
+}
 .slide{
   position: absolute;
   inset: 0;
@@ -23,4 +28,12 @@ body{
 }
 .slide[data-active]{
   opacity: 1;
+}
+.carousel-button{
+  position: absolute;
+  z-index: 2;
+  background: none;
+  font-size: 4rem;
+  top: 50%;
+  transform: translateY(-50%);
 }
