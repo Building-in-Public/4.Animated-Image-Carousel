@@ -1,4 +1,4 @@
-*, *::before, ^::after{
+*, *::before, *::after{
   box-sizing: border-box;
 }
 body{
@@ -12,7 +12,7 @@ body{
 .carousel>ul{
   margin: 0;
   padding: 0;
-  
+  list-style: none;
 }
 .slide{
   position: absolute;
@@ -36,4 +36,7 @@ body{
   font-size: 4rem;
   top: 50%;
   transform: translateY(-50%);
+  color: rgba(225, 225, 225, 0.5);
+  cursor: pointer;
+  border-radius: 0.25rem;
 }
